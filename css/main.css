@@ -1,6 +1,7 @@
 body {
     font-family: "Open Sans", sans-serif;
 }
+
 .container{
     max-width: 1400px;
     margin: 0 auto;
@@ -53,6 +54,7 @@ header{
     align-items: center;
     height: 100%;
 }
+
 .navbar-list li{
     display: block;
 }
@@ -65,12 +67,7 @@ header{
 }
 
 .icon {
-    /*display: none;*/
-}
-
-.icon {
-    /*display: block;*/
-     display: none;
+    display: none;
     position: absolute;
     right: 0;
     top: 0;
@@ -80,8 +77,6 @@ header{
     color: #2e2e2e;
     font-size: 33px;
     height: 100%;
-    /* line-height: 100%; */
-    /* vertical-align: middle; */
     align-items: center;
 }
 
@@ -96,14 +91,17 @@ header{
     background-color: #fbfafa;
     padding-bottom: 65px;
 }
+
 .dirty-dogs-line{
     background: linear-gradient(#e8e7e7,#fbfafa);
     height: 10px;
 }
+
 .dirty-dogs-img{
     margin: 105px auto 95px;
     display: block;
 }
+
 .dirty-dogs-text{
     max-width: 920px;
     display: block;
@@ -112,6 +110,7 @@ header{
     color: #555559;
     text-align: center;
 }
+
 .dirty-dogs-btn{
     background-color: #286782;
     width: 310px;
@@ -135,10 +134,12 @@ header{
 .hot-menu-text,.hot-menu-img-cont{
     width: 50%;
 }
+
 .hot-menu-img{
     width: 100%;
     height: auto;
 }
+
 .hot-menu-text{
     display: flex;
     flex-direction: column;
@@ -147,13 +148,16 @@ header{
     flex-wrap: wrap;
     padding: 0 20px;
 }
+
 .hot-menu-title,.hot-menu-desc{
     width: 100%;
 }
+
 .hot-menu-title h3,.hot-menu-desc p {
     max-width: 440px;
     margin: 0 auto;
 }
+
 .hot-menu-title h3{
     font-size: 23px;
     font-weight: bold;
@@ -161,6 +165,7 @@ header{
     margin-bottom: 25px;
     position: relative;
 }
+
 .hot-menu-title h3:before {
     content: '';
     position: absolute;
@@ -169,6 +174,7 @@ header{
     left: -46px;
     top: 15px;
 }
+
 .hot-menu-desc p{
     font-size: 17px;
     color: #555559;
@@ -185,6 +191,7 @@ header{
     justify-content: space-between;
     padding: 0 20px;
 }
+
 .footer span{
     font-size: 14px;
     color: #555559;
