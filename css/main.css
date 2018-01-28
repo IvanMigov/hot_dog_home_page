@@ -1,5 +1,5 @@
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container{
@@ -62,8 +62,8 @@ header{
 .navbar-list-item{
     text-transform: uppercase;
     color: #2e2e2e;
-    font-size: 24px;
-    font-weight: bolder;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .icon {
@@ -89,7 +89,7 @@ header{
 
 .dirty-dogs{
     background-color: #fbfafa;
-    padding-bottom: 65px;
+    padding-bottom: 170px;
 }
 
 .dirty-dogs-line{
@@ -98,7 +98,7 @@ header{
 }
 
 .dirty-dogs-img{
-    margin: 105px auto 95px;
+    margin: 105px auto 20px;
     display: block;
 }
 
@@ -109,6 +109,7 @@ header{
     font-size: 55px;
     color: #555559;
     text-align: center;
+    font-weight: lighter;
 }
 
 .dirty-dogs-btn{
@@ -116,7 +117,7 @@ header{
     width: 310px;
     height: 65px;
     display: block;
-    margin: 65px auto 0;
+    margin: 70px auto 0;
     color: #ffffff;
     font-size: 20px;
     border: none;

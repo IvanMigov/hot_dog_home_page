@@ -34,7 +34,7 @@
     }
 
     .footer span{
-        line-height: initial;
+        line-height: normal;
     }
 }
 
@@ -132,7 +132,4 @@
         margin-top: 25px;
     }
 
-    .dirty-dogs {
-        padding-bottom: 25px;
-    }
 }
