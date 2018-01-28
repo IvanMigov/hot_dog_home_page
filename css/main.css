@@ -1,0 +1,194 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/*====================================================
+                       HEADER
+======================================================*/
+
+header{
+    width: 100%;
+}
+
+.header-images{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-img-wrapper{
+    width: 16.6666666%
+}
+
+.img-responsive{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: -1px;
+}
+/*====================================================
+                       HEADER-MENU
+======================================================*/
+.navbar{
+    width: 100%;
+    height: 100px;
+}
+
+.navbar-content{
+    max-width: 700px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+.navbar-list{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.navbar-list li{
+    display: block;
+}
+
+.navbar-list-item{
+    text-transform: uppercase;
+    color: #2e2e2e;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.icon {
+    /*display: none;*/
+}
+
+.icon {
+    /*display: block;*/
+     display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #2e2e2e;
+    font-size: 33px;
+    height: 100%;
+    /* line-height: 100%; */
+    /* vertical-align: middle; */
+    align-items: center;
+}
+
+.icon:hover{
+    text-decoration: none;
+}
+/*====================================================
+                       DIRTY DOGS
+======================================================*/
+
+.dirty-dogs{
+    background-color: #fbfafa;
+    padding-bottom: 65px;
+}
+.dirty-dogs-line{
+    background: linear-gradient(#e8e7e7,#fbfafa);
+    height: 10px;
+}
+.dirty-dogs-img{
+    margin: 105px auto 95px;
+    display: block;
+}
+.dirty-dogs-text{
+    max-width: 920px;
+    display: block;
+    margin: 0 auto;
+    font-size: 55px;
+    color: #555559;
+    text-align: center;
+}
+.dirty-dogs-btn{
+    background-color: #286782;
+    width: 310px;
+    height: 65px;
+    display: block;
+    margin: 65px auto 0;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/*====================================================
+                       MENU
+======================================================*/
+
+.hot-menu-row{
+    display: flex;
+}
+
+.hot-menu-text,.hot-menu-img-cont{
+    width: 50%;
+}
+.hot-menu-img{
+    width: 100%;
+    height: auto;
+}
+.hot-menu-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+.hot-menu-title,.hot-menu-desc{
+    width: 100%;
+}
+.hot-menu-title h3,.hot-menu-desc p {
+    max-width: 440px;
+    margin: 0 auto;
+}
+.hot-menu-title h3{
+    font-size: 23px;
+    font-weight: bold;
+    color: #555559;
+    margin-bottom: 25px;
+    position: relative;
+}
+.hot-menu-title h3:before {
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid #555559;
+    width: 28px;
+    left: -46px;
+    top: 15px;
+}
+.hot-menu-desc p{
+    font-size: 17px;
+    color: #555559;
+    font-weight: lighter;
+}
+
+/*====================================================
+                       FOOTER
+======================================================*/
+
+.footer{
+    background-color: #efefef;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.footer span{
+    font-size: 14px;
+    color: #555559;
+    line-height: 65px;
+}
+
+
